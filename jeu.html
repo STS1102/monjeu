@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu de Dé</title>
+    <link rel="stylesheet" href="./jeu.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <img id="logo" src="./images/logo.png" alt="Logo du jeu"> 
+            <button id="new-game">Nouvelle Partie</button>
+        </header>
+        
+
+        <div id="player1" class="player">
+            <h2>Joueur 1</h2>
+            <div class="score-container">
+                <p>Score Global: <span id="global-score-1">0</span></p>
+                <p>Score Actuel: <span id="current-score-1">0</span></p>
+            </div>
+        </div>
+
+ <img id="dice" src="./images/de1.png" alt="Dé" class="dice">
+
+        <div id="player2" class="player">
+            <h2>Joueur 2</h2>
+            <div class="score-container">
+                <p>Score Global: <span id="global-score-2">0</span></p>
+                <p>Score Actuel: <span id="current-score-2">0</span></p>
+            </div>
+        </div>
+
+         
+
+        <button id="roll-dice">
+            <img src="./images/lance.webp" alt="Lancer le dé">
+            <p>Lancer le dé</p> 
+        </button>
+        
+        <button id="hold">
+            <img src="./images/retenir.png" alt="Hold">
+            <p>Retenir</p> 
+        </button>
+        
+    </div>
+
+    <script src="./jeu.js"></script> 
+</body>
+</html>

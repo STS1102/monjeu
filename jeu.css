@@ -1,0 +1,94 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-image: url('./images/fond.jpg'); /* Image de fond pour tout le site */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(145, 98, 98, 0.9); /* Fond légèrement transparent pour une meilleure visibilité */
+}
+
+.player {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(114, 204, 91); /* Fond blanc pour les sections des joueurs */
+}
+
+.score-container {
+    position: relative; /* Permet de positionner l'image de fond du score */
+    margin-bottom: 20px;
+}
+
+.score-container img {
+    width: 50%; /* Ajuste la taille de l'image du score */
+    height: auto;
+    position: absolute; /* Positionne l'image du score derrière le texte */
+    left: 0;
+    top: 0;
+    z-index: -1; /* Place l'image derrière le texte */
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+button img {
+    width: 30px; 
+    height: auto;
+}
+
+button:active {
+    transform: scale(0.98); 
+}
+
+
+
+.dice {
+    width: 5%;
+}
+
+#logo {
+    width: 150px; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+}
+
+
+
+#new-game {
+    background-color: #4CAF50; 
+    color: white;
+    margin: 0;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    top: 0; 
+    right: 0;
+}
+
+.score-container p {
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
+#logo {
+    top: 0; 
+    left: 0; 
+    margin: 0;
+    padding: 20px;
+}
+
+
